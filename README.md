@@ -12,21 +12,24 @@ Before running the application, ensure that you have the following installed:
 ## Getting Started
 
 1. Clone this repository:
-
+```
    git clone https://github.com/techmacitoo/ChangeCalculator.git
-
+```
 
 2. Navigate to the project directory:
-
+```
     cd ChangeCalculator
+```
 
 3. Build the project:
-
+```
     mvn clean install -DskipTests
+```
 
 4. Run the application:
-
+```
     mvn spring-boot:run
+```
 
 5. You can test it in two ways:
     1. Using Command propmt:
@@ -38,6 +41,7 @@ Before running the application, ensure that you have the following installed:
         1. Open Postman
         2. Click on import 
         3. Paste this curl
+        ```  
             curl --location 'http://localhost:8080/calculateChange' \
             --header 'Key: Content-Type' \
             --header 'Value: application/json' \
@@ -45,7 +49,8 @@ Before running the application, ensure that you have the following installed:
             --data '{
                 "amountPaid": 20.00,
                 "productPrice": 5.50
-            }'  
+            }'
+        ```  
         4. Send Request
             You will output in response
 
