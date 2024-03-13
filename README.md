@@ -30,9 +30,9 @@ Before running the application, ensure that you have the following installed:
 
 5. You can test it in two ways:
     1. Using Command propmt:
-        After running application you'll be asked to enter 1st input 'Amount' then press enter,
-        after that you will be asked to enter 2nd Input 'Product Price' then press enter,
-        You will get output.
+       1. After running application you'll be asked to enter 1st input 'Amount' then press enter.
+       2. After that you will be asked to enter 2nd Input 'Product Price' then press enter.
+       3. You will get output.
     
     2. Using Postman
         1. Open Postman
